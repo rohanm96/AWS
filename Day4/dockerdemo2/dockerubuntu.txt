@@ -1,0 +1,12 @@
+1. sudo apt-get update
+2. sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+3. sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+4. sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+5. sudo apt-get update
+6. sudo apt-cache policy docker-ce
+7. sudo apt-get install docker-ce
+8. sudo systemctl status docker
+9. sudo docker pull rohanmanu/pythonflask
+10 sudo docker run -p 80:5000 rohanmanu/pythonflask
+
+

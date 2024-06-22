@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+}
+
+li{
+    
+       padding: 10px;
+    display: inline-block;
+    height: 20px;
+}
